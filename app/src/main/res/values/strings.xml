@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JDTT</string>
+    <string-array name="news">
+        <item>新闻</item>
+        <item>头条</item>
+        <item>今日热点</item>
+        <item>手机新闻网</item>
+    </string-array>
+</resources>

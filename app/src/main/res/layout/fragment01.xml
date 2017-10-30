@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.design.widget.TabLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tb"
+    app:tabGravity="center"
+    app:tabSelectedTextColor="#f00"
+    app:tabIndicatorColor="#f00"
+    app:tabTextColor="#fff"
+    android:background="#FF0040FF"
+    app:tabMode="scrollable"
+    >
+</android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/vp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#22f"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/ll"
+        android:orientation="horizontal"
+        android:layout_marginTop="-35dp"
+        ></LinearLayout>
+
+    <!--此viewpager和TabLayoutl联用加载的是Fragment-->
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:id="@+id/vp1"
+        >
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
